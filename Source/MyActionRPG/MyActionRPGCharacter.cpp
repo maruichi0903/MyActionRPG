@@ -30,7 +30,10 @@ AMyActionRPGCharacter::AMyActionRPGCharacter()
 	// instead of recompiling to adjust them
 	GetCharacterMovement()->JumpZVelocity = 500.f;
 	GetCharacterMovement()->AirControl = 0.35f;
-	GetCharacterMovement()->MaxWalkSpeed = 500.f;
+
+	// 移動速度を変更してみるテスト
+	GetCharacterMovement()->MaxWalkSpeed = 1200.f;
+
 	GetCharacterMovement()->MinAnalogWalkSpeed = 20.f;
 	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
 	GetCharacterMovement()->BrakingDecelerationFalling = 1500.0f;
